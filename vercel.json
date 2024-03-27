@@ -1,13 +1,13 @@
 {
   "functions": {
-    "api/index.js": {
+    "index.js": {
       "runtime": "nodejs14.x"
     }
   },
   "routes": [
-    { "src": "/info", "dest": "api/index.js" },
-    { "src": "/getStream", "dest": "api/index.js" },
-    { "src": "/search", "dest": "api/index.js" },
-    { "src": "/trending", "dest": "api/index.js" }
+    { "src": "/info", "dest": "index.js" },
+    { "src": "/getStream", "dest": "index.js" },
+    { "src": "/search", "dest": "index.js" },
+    { "src": "/trending", "dest": "index.js" }
   ]
 }
