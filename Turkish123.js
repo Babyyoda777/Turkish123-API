@@ -3,7 +3,7 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
 
-class Turkish123 {
+export class Turkish123 {
     constructor() {
         this.info = null;
         this.SearchResults = [];
