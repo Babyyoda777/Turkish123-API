@@ -1,8 +1,9 @@
 // index.js
 
-const Turkish123 = require('./Turkish123');
+import { Turkish123 } from './Turkish123.js'; // Assuming Turkish123 is exported as named export in Turkish123.js
 
 const turkish123 = new Turkish123();
+
 
 module.exports.handler = async (req, res) => {
     const { method, query, path } = req;
