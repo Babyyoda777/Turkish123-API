@@ -1,4 +1,4 @@
-// handler.js
+// index.js
 
 const Turkish123 = require('./Turkish123');
 
