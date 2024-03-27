@@ -1,11 +1,8 @@
-// index.js
-
-import { Turkish123 } from './Turkish123.js'; // Assuming Turkish123 is exported as named export in Turkish123.js
+import { Turkish123 } from './Turkish123.js';
 
 const turkish123 = new Turkish123();
 
-
-module.exports.handler = async (req, res) => {
+export async function handler(req, res) {
     const { method, query, path } = req;
 
     switch (path) {
@@ -36,4 +33,4 @@ module.exports.handler = async (req, res) => {
             res.status(404).json({ error: 'Not Found' });
         }
     }
-};
+}
