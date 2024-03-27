@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/*": {
+      "runtime": "nodejs14.x"
+    }
+  },
+  "routes": [
+    { "handle": "handler.handler", "src": "/info", "method": ["GET"] },
+    { "handle": "handler.handler", "src": "/getStream", "method": ["GET"] },
+    { "handle": "handler.handler", "src": "/search", "method": ["GET"] },
+    { "handle": "handler.handler", "src": "/trending", "method": ["GET"] }
+  ]
+}
