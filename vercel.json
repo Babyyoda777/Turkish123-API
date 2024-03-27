@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "index.js": {
-      "runtime": "nodejs14.1"
-    }
-  },
   "routes": [
     { "src": "/info", "dest": "index.js" },
     { "src": "/getStream", "dest": "index.js" },
